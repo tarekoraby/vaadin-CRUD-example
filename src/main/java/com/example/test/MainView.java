@@ -36,8 +36,9 @@ public class MainView extends VerticalLayout {
 		crud.setEditorPosition(CrudEditorPosition.ASIDE);
 		crud.setEditOnClick(true);
 		crud.setOpened(true);
+		crud.setSizeFull();
 		crud.getGrid().setColumns("name");
-
+		setSizeFull();
 		add(crud);
 	}
 
